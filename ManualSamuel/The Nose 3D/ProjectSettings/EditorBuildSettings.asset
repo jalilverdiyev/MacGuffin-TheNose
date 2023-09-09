@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes 1/Scenes/PressToCountinue.unity
     guid: bfeb763a7e152184f805b17b2f215c63
+  - enabled: 1
+    path: Assets/Scenes 1/Scenes/New Scene.unity
+    guid: 106386f027d5d6c44adbec66276ddfb7
+  - enabled: 1
+    path: Assets/Scenes 1/Scenes/CarriagaScene.unity
+    guid: 96b76c85beff9b94491b326ced511774
   m_configObjects: {}
