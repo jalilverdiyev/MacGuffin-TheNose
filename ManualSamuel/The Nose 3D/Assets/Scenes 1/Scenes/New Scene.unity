@@ -824,7 +824,7 @@ PrefabInstance:
     - target: {fileID: 1839516458735916265, guid: ea86c9659954ca34ebf8a16d5a24ca03, type: 3}
       propertyPath: m_Avatar
       value: 
-      objectReference: {fileID: 9000000, guid: a0e40e2f6957a23429dad1a262577a5e, type: 3}
+      objectReference: {fileID: 9000000, guid: c6a3bba0183c4034087b59f77befc05e, type: 3}
     - target: {fileID: 2165667390114169051, guid: ea86c9659954ca34ebf8a16d5a24ca03, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -34849,7 +34849,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8926765087936409655}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.48, y: 0, z: 7.87}
+  m_LocalPosition: {x: -11.48, y: 0, z: 5.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -40109,7 +40109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba50e45fadc9b904d96f654308659a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 8719128840635822180}
+  target: {fileID: 8118280532279601805}
   smoothing: 5
 --- !u!23 &8961911594874584654
 MeshRenderer:
