@@ -1,8 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using Unity.VisualScripting;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerActions : MonoBehaviour
 {
@@ -48,5 +51,11 @@ public class PlayerActions : MonoBehaviour
     {
         if(collider.gameObject.tag == "OpenDoor")
             isOpen = true;
+    
+        if(collider.gameObject.tag == "NewScene")
+        {
+            Thread.Sleep(2000);
+            SceneManager.LoadScene(6);
+        }
     }
 }
